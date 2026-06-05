@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "386191771f2c377a",
+        "id": "5e931fad6a5b5ef2",
         "type": "tabs",
         "children": [
           {
-            "id": "66dc43b7b522eee6",
+            "id": "7d09b9fe60db3ddc",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -90,6 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "tests/README.md.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +100,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Обратные ссылки"
+              "title": "Обратные ссылки для README.md"
             }
           },
           {
@@ -108,11 +109,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "tests/README.md.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Исходящие ссылки"
+              "title": "Исходящие ссылки из README.md"
             }
           },
           {
@@ -150,12 +152,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "tests/README.md.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Структура"
+              "title": "Структура README.md"
             }
           }
         ]
@@ -177,40 +180,44 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "66dc43b7b522eee6",
+  "active": "702f7b799f491510",
   "lastOpenFiles": [
-    "templates/module-header-template.md",
-    "templates/code-review-report.md",
-    "tools/quality-gates/release-quality-gate.md",
-    "tools/static-analysis-checklists/1c-static-analysis-checklist.md",
-    "docs/coding-standards.md",
-    "CONTRIBUTING.md",
-    "README.md",
-    "ROADMAP.md",
-    "LICENSE",
-    "CHANGELOG.md",
-    "tools/code-review-prompts/1c-code-review.md",
-    "tools/static-analysis-checklists",
-    "tools/quality-gates",
-    "tools/code-review-prompts",
-    "tools",
-    "templates/quality-report-template.md",
-    "templates",
-    "src/rules/README.md",
-    "src/external-processing/README.md",
-    "src/extensions/README.md",
-    "src/common-modules/README.md",
-    "src/rules",
-    "src/external-processing",
-    "src/extensions",
-    "src/common-modules",
-    "examples/review-reports/README.md",
-    "examples/good-code/README.md",
+    "examples/kazakhstan-accounting/README.md.md",
+    "tests/README.md.md",
+    "examples/kazakhstan-accounting/inventory-accounts-check.bsl.md",
+    "examples/kazakhstan-accounting/account-1300-check.bsl.md",
+    "examples/kazakhstan-accounting/account-1330-check.bsl.md",
+    "examples/kazakhstan-accounting/account-1320-check.bsl.md",
+    "examples/kazakhstan-accounting/account-1310-check.bsl.md",
+    "examples/good-code/query-in-loop-fixed.bsl.md",
+    "examples/bad-code/query-in-loop.bsl.md",
+    "examples/good-code/server-side-data-processing.bsl.md",
+    "examples/good-code/long-procedure-refactored.bsl.md",
+    "examples/good-code/hardcoded-token-fixed.bsl.md",
+    "examples/good-code/silent-exception-fixed.bsl.md",
+    "examples/bad-code/client-side-large-data-processing.bsl.md",
+    "examples/bad-code/long-procedure.bsl.md",
+    "examples/bad-code/hardcoded-token.bsl.md",
+    "examples/bad-code/silent-exception.bsl.md",
+    "Без названия.canvas",
     "examples/bad-code/README.md",
-    "docs/usage.md",
-    "docs/installation.md",
-    "docs/code-review-process.md",
-    "docs/architecture.md",
-    "Добро пожаловать.md"
+    "ai-workflows/code-review-workflow.md",
+    "AGENTS.md",
+    "CONTRIBUTING.md",
+    "tests/quality-gate-test-cases.md",
+    "tests/code-review-test-cases.md",
+    "tests/manual-test-cases.md",
+    "ai-workflows/release-notes-generation-workflow.md",
+    "ai-workflows/issue-triage-workflow.md",
+    "examples/kazakhstan-accounting",
+    "tests",
+    "ai-workflows",
+    "rules/maintainability",
+    "rules/security",
+    "rules/performance",
+    "rules/queries",
+    "rules/naming",
+    "rules",
+    "LICENSE"
   ]
 }
