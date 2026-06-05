@@ -1,1 +1,46 @@
 
+## 4. Обновлённый `ROADMAP.md`
+
+```markdown
+# Roadmap
+
+## Stage 1 — Project foundation
+
+- Create repository structure
+- Add project documentation
+- Add initial 1C coding standards
+- Add code review prompt for 1C modules
+- Add static analysis checklist
+- Add quality report template
+
+## Stage 2 — Code quality standards
+
+- Add naming conventions for 1C objects
+- Add rules for common modules
+- Add rules for server/client code separation
+- Add query writing recommendations
+- Add transaction handling recommendations
+- Add error handling recommendations
+
+## Stage 3 — Examples and practical cases
+
+- Add examples of good 1C code
+- Add examples of bad 1C code
+- Add examples of optimized and unoptimized queries
+- Add examples of refactoring duplicated logic
+- Add examples of improving readability
+
+## Stage 4 — AI-assisted code review
+
+- Add prompts for 1C code review
+- Add prompts for query optimization
+- Add prompts for documentation generation
+- Add prompts for technical debt analysis
+- Add examples of AI-assisted review reports
+
+## Stage 5 — Release quality gates
+
+- Add release checklist
+- Add pre-release code quality gate
+- Add post-release maintenance checklist
+- Add template for quality approval report

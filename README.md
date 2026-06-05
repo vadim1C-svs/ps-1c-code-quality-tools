@@ -1,33 +1,45 @@
-# PSGroup ps-1c-code-quality-tools
+# PSGroup 1C Code Quality Tools
 
-Open-source toolkit for 1C:Enterprise developers focused on code quality, maintainability, documentation, and automation.
+Open-source tools, templates, and guidelines for improving code quality in 1C:Enterprise projects.
 
 ## Purpose
 
-1C:Enterprise is widely used in Kazakhstan and CIS countries for accounting, trade, retail, ERP, and business automation. However, the open-source ecosystem around reusable developer tools, code quality automation, and maintenance workflows is still limited.
+1C:Enterprise is widely used in Kazakhstan and CIS countries for accounting, trade, retail, ERP, and business automation. Many 1C projects grow for years and become difficult to maintain because of inconsistent coding style, weak documentation, duplicated logic, unoptimized queries, and lack of regular code review.
 
-This project provides practical tools, templates, and examples for 1C developers and maintainers.
+This project provides practical open-source materials for 1C developers and maintainers who want to improve code quality, maintainability, readability, and reliability of 1C solutions.
+
+## Goals
+
+- Provide reusable code review checklists for 1C projects
+- Define practical 1C coding standards
+- Collect examples of good and bad 1C code patterns
+- Provide AI-assisted prompts for reviewing 1C code
+- Help teams introduce quality gates before releases
+- Reduce technical debt in 1C-based business systems
 
 ## Features
 
-- Code quality check templates for 1C modules
-- Common development standards and naming conventions
-- Maintenance scripts and examples
-- Documentation templates for 1C projects
-- Integration examples
-- AI-assisted workflow examples for code review, documentation, and issue triage
+- 1C code review prompt templates
+- Static analysis checklists
+- Coding standards for 1C modules
+- Quality gate templates for releases
+- Code review report templates
+- Examples of good and bad 1C code
+- Documentation templates for maintainable 1C development
 
-## Target audience
+## Target Audience
 
 - 1C:Enterprise developers
 - 1C franchise companies
+- 1C consultants and project maintainers
 - Small and medium business automation teams
-- Consultants and maintainers of 1C-based systems
+- Teams that maintain custom 1C configurations and extensions
 
-## Maintainer
+## Project Structure
 
-Maintained by Vadim Silkin, 1C developer with around 20 years of experience and founder/manager of PSGroup, a 1C-focused business automation company in Kazakhstan.
-
-## License
-
-MIT License
+```text
+docs/       Documentation and coding standards
+src/        1C source examples, rules, modules, extensions
+examples/   Good and bad code examples, review reports
+tools/      Prompts, checklists, quality gates
+templates/  Code review and quality report templates
